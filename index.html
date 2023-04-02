@@ -13,11 +13,60 @@
     </head>
     <body>
         <h1 class="hidden">ZIMA</h1>
-        <header>
+        <header class="grid-con" id="main-header">
+            <div class="col-start-1 col-end-2 m-col-start-1 m-col-end-3 xl-col-start-2 xl-col-end-3" id="main-logo">
+                <img src="images/ZimaLogo.svg" alt="Zima Logo">
+            </div>
+            <div class="col-start-2 m-col-start-4 m-col-end-10 col-end-4 l-col-start-11 xl-col-start-11">
+                
+                        <form method="get" action="process.php">
+                            <label class="hidden">*Search</label>
+                            <input id="search" type="text" placeholder="Search">
+                         </form>
+                
+            </div>
+            <nav class="col-end-5 m-col-start-11 m-col-end-13 l-col-start-3 l-col-end-10" id="Nav-Desktop"> 
+                <h2 class="hidden">Main Navigation</h2>
+                    <button id="button"></button>
+                    <div id="burger-con">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Best Deals</a></li>
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+            </nav>
 
         </header>
 
         <main>
+            <section class="grid-con hero">
+                <h2 class="hidden">Hero Image</h2>
+                <img
+                sizes="(max-width: 1920px) 100vw, 1920px"
+                srcset="
+                images/hero_image_ddmvfg_c_scale,w_320.png 320w,
+                images/hero_image_ddmvfg_c_scale,w_642.png 642w,
+                images/hero_image_ddmvfg_c_scale,w_874.png 874w,
+                images/hero_image_ddmvfg_c_scale,w_1061.png 1061w,
+                images/hero_image_ddmvfg_c_scale,w_1213.png 1213w,
+                images/hero_image_ddmvfg_c_scale,w_1370.png 1370w,
+                images/hero_image_ddmvfg_c_scale,w_1501.png 1501w,
+                images/hero_image_ddmvfg_c_scale,w_1634.png 1634w,
+                images/hero_image_ddmvfg_c_scale,w_1752.png 1752w,
+                images/hero_image_ddmvfg_c_scale,w_1880.png 1880w,
+                images/hero_image_ddmvfg_c_scale,w_1920.png 1920w"
+                src="images/hero_image_ddmvfg_c_scale,w_1920.png"
+                alt="hero-image" id="hero-image">
+
+
+                <div class="col-start-2 col-end-4 m-col-start-2 m-col-end-6 hero-text">Hype Up With Zima</div>
+                <div class="col-start-1 col-end-3 m-col-start-2 m-col-end-4 more">Shop More</div>
+                <div class="col-start-3 col-end-4 m-col-start-4 m-col-end-6 more">Learn More</div>
+            </section>
 
         </main>
 
