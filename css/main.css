@@ -81,54 +81,84 @@ input, textarea {
     color: #fff;
 }
 
-.hero img {
+#hero-image {
+    height: 375px;
+    padding: 0;
     grid-column: 1/-1;
     grid-row: 1/3;
     justify-self: center;
 }
 
-#hero-image {
-    object-fit: cover;
-    height: 375px;
-    padding: 0;
-}
-
 .hero-text {
-    height: 105px;
-    margin-top: 158px;
+    margin-top: 37px;
     grid-row: 1/3;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
 }
 
-.more {
+.s_more {
     height: 43px;
-    margin-top: 107px;
+    margin-top: 122px;
+    margin-left: 39px;
     font-size: 11px;
     grid-row: 1/3;
     border: solid 2px #fff;
-    border-radius: 5px;
-    text-align: center;
-    width: 135px;
+    border-radius: 2px;
+    width: 108px;
+    padding-top: 11px;
+    font-weight: bold;
+    color: #fff;
 }
+
+.more h3 {
+    color: #fff;
+    text-align: center;
+}
+
+.l_more {
+    height: 43px;
+    margin-top: 122px;
+    font-size: 11px;
+    grid-row: 1/3;
+    border: solid 2px #fff;
+    border-radius: 2px;
+    width: 108px;
+    padding-top: 11px;
+    font-weight: bold;
+}
+
+
 /*--2.PROMO--*/
 #promo-con {
-    background-color: #E3E3E3;
+    background-color: #BC8D0A;
     height: 193px;
     margin-bottom: 10px;
-
+    grid-row: 1/3;
 }
 
 .promo-pic {
-    grid-row: 2/3;
+    grid-row: 1/3;
+}
+
+.promo-pic img{
     height: 141px;
     margin-top: 25px;
-    margin-left: 55px;
-    margin-right: 55px;
+    /* margin-left: 55px;
+    margin-right: 55px; */
+    width: 270px;
+    margin-left: 13px;
 }
 
 #promo-text {
     margin-top: 120px;
-    grid-row: 2/3;
+    grid-row: 1/3;
+    background-color: #eeeeee;
+    font-size: 6px;
     height: 29px;
+    padding: 7px 7px 0 7px;
+    text-align: center;
+    border-radius: 1px;
     /* margin-top: -60px; */
 }
 
@@ -353,29 +383,39 @@ input, textarea {
         grid-row: 1/3;
     }
 
-    .more {
+    .s_more {
         height: 29px;
-        grid-row: 1/3;   
+        width: 88px;
+        margin-left: 0;
+        padding-top: 5px;
+    }
+    .l_more {
+        height: 29px;
+        width: 88px;
+        padding-top: 5px;
     }
 /*---2. PROMO---*/
-    #promo-con {
+    /* #promo-con {
         background-color: #E3E3E3;
         
-    }
+    } */
 
-    .promo-pic {
+    .promo-pic img {
         grid-row: 2/3;
         height: 141px;
         margin-top: 25px;
         margin-left: 55px;
         margin-right: 55px;
+        width: 546px;
     }
     
     #promo-text {
-        margin-top: 120px;
         grid-row: 2/3;
-        height: 29px;
-        
+        height: 34px;
+        font-size: 10px;
+        padding-top: 4px;
+        margin-left: 20px;
+        border-radius: 5px;
     }
    
 /*---3.STORE---*/
@@ -589,7 +629,7 @@ input, textarea {
 /*--1. Header--*/
    
     #search {
-        margin-top: 40px;
+        margin-top: 35px;
         border-radius: 50px;
         text-align: center;
         width: 167px;
@@ -609,19 +649,18 @@ input, textarea {
         padding-left: 0;
     }
     
-    #Nav-Desktop ul {
+    /* #Nav-Desktop ul {
         list-style: none;   
     }
-    
+     */
     #Nav-Desktop ul li {
         display: inline;
-        font-size: 1.2rem;
-        margin-right: 35px;
+        font-size: 1.1rem;
+        margin-right: 27px;
     }
     
     #Nav-Desktop ul li a {
         color: #000;
-        text-decoration: none;
         letter-spacing: 2px;
     }
     
@@ -632,32 +671,54 @@ input, textarea {
     }
 
 /*2--Hero Image--*/
+    #hero-image {
+            height: 608px;       
+    }
+
     .hero {
-        background-color: #4C6158;
         height: 608px;
     }
 
     .hero-text {
-        height: 185px;   
+        font-size: 40px;   
+        margin-top: 46px;
     }
+
+    .s_more {
+        height: 49px;
+        width: 135px;
+        margin-left: 42px;
+        padding-top: 10px;
+        font-size: 17px;
+        margin-top: 213px;
+    }
+    .l_more {
+        height: 49px;
+        width: 135px;
+        padding-top: 10px;
+        font-size: 17px;
+        margin-top: 213px;
+    }
+
 /*---3.PROMO---*/
-    .more {
+    /* .more {
         height: 39px;
         font-size: 15px;
         margin-bottom: 326px;
-    }
+    } */
     
     #promo-con {
-        background-color: #E3E3E3;
         height: 378px;
+        margin-top: 10px;
     
     }
 
-    .promo-pic {
-        grid-row: 2/3;
+    .promo-pic img{
+        /* grid-row: 2/3; */
         height: 241px;
-        margin-top: 25px;
-        margin-left: 55px;
+        width: 770px;
+        margin-top: 30px;
+        margin-left: 0;
         margin-right: 55px;
     }
     
@@ -665,15 +726,23 @@ input, textarea {
         margin-top: 0; 
         grid-row: 3/3;
         height: 44px;
-        
+        font-size: 14px;
+        border-radius: 1px;
+        padding: 4px 7px 7px 7px;
     }
 
     #promo-text-2 {
         display: block;
         grid-row: 3/3;
         height: 44px;
-        
+        text-align: center;
+        background-color: #eeeeee;
+        border-radius: 1px;
+        font-size: 14px;
+        padding: 4px 7px 7px 7px;
     }
+
+      
 
 
 /*---4.STORE---*/
@@ -820,13 +889,21 @@ input, textarea {
             width: 100%;
         }
 /*--1. Header--*/
-        /* #Nav-Desktop {
-            grid-row: 1/2;
+        /* #Nav-Desktop ul li {
+            m
         } */
 
+        #Nav-Desktop {
+            margin-top: 11px;
+            padding-left: 0;
+        }
+
+        #burger-con {
+            font-size: 22px;
+         }
+
 /*2--Hero Image--*/
-        .hero {
-            background-color: #4C6158;
+        #hero-image {
             height: 974px;   
         }
         
@@ -834,11 +911,14 @@ input, textarea {
             height: 297px;  
         }
 
+        .hero {
+            height: 974px;
+        }
+
 /*---3. PROMO---*/
 
         #promo-con {
-            background-color: #E3E3E3;
-            height: 685px;
+           height: 685px;
         }
 
         .more {
@@ -846,27 +926,57 @@ input, textarea {
             margin-bottom: 538px;
         }
 
-        .promo-pic {
+        .promo-pic img {
             grid-row: 2/3;
             height: 387px;
-            margin-top: 25px;
-            margin-left: 55px;
+            margin-top: 94px;
+            margin-left: 0;
             margin-right: 55px;
         }
         
         #promo-text {
-            margin-top: 0;
             grid-row: 3/3;
             height: 71px;
-            
+            border-radius: 2px;
+            padding: 15px 7px 7px 7px;
         }
     
         #promo-text-2 {
             display: block;
             grid-row: 3/3;
             height: 71px;
-            
+            border-radius: 2px;
+            padding: 15px 7px 7px 7px;
         }
+
+        /* .promo-pic img{
+        grid-row: 2/3;
+        height: 241px;
+        width: 770px;
+        margin-top: 30px;
+        margin-left: 0;
+        margin-right: 55px;
+    }
+    
+    #promo-text {
+        margin-top: 0; 
+        grid-row: 3/3;
+        height: 44px;
+        font-size: 14px;
+        border-radius: 1px;
+        padding: 4px 7px 7px 7px;
+    }
+
+    #promo-text-2 {
+        display: block;
+        grid-row: 3/3;
+        height: 44px;
+        text-align: center;
+        background-color: #eeeeee;
+        border-radius: 1px;
+        font-size: 14px;
+        padding: 4px 7px 7px 7px;
+    } */
 
 /*---4.STORE---*/
     #store {
