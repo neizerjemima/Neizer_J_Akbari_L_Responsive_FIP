@@ -25,7 +25,11 @@ for this library we will stick with pixels */
  }
  
  /* ---Utility Classes--- */
- 
+
+ /* picture, img, img {
+   max-width: 100%;
+ }
+  */
  .hidden {
     display: none;
  }
@@ -224,6 +228,7 @@ for this library we will stick with pixels */
        grid-column-gap: 34px;
        padding-left: 17px;
        padding-right: 17px;
+       max-width: 100%;
     }
  
     .xl-col-auto {grid-column: auto;}
