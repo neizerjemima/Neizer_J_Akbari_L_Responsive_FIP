@@ -168,42 +168,75 @@ input, textarea {
 
 /*---3.STORE---*/
 #store {
-    background-color: #A0A0A0;
+    /* background-color: #A0A0A0; */
     height: 824px;
     margin-bottom: 10px;
+    animation: change 10s infinite ease-in-out;
+    
+}
+
+@keyframes change {
+    0% { background-color: #1F221A;}
+    12.5% { background-color: #BC8D0A;}
+    25% { background-color: #e88b8b}
+    37.5% { background-color:  #ead514;}
+	50% { background-color:  #e08314;}
+	62.5% {	background-color:  #ead514;}
+	75% { background-color:  #e88b8b;}
+	87.5% { background-color:  #BC8D0A;}
+	100% { background-color:  #1F221A;}
 }
 
 .shop {
     height: 17px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 46px;
+    margin-top: 18px;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .shop-more {
-    height: 17px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 46px;
     margin-bottom: 0;
-    font-size: 12px;
+    font-size: 15px;
+    border: solid 1px #fff;
+    text-align: center;
+    padding-top: 5px;
+    height: 30px;
+    border-radius: 1px;
+    font-weight: 600;
+    color: #fff;
 }
+
+
 
 .shop-text {
    display: none;
 }
 
-.product1 {
+.product1 img{
     height: 300px;
     grid-row: 2/3;
     margin: 0;
+    width: 131px;
 }
 
-.product2 {
+.product_1 img{
+    height: 300px;
+    grid-row: 2/3;
+    width: 131px;
+}
+
+.product2 img{
     height: 300px;
     grid-row: 3/3;
     margin: 0;
+    width: 131px;
+}
+
+.product_2 img{
+    height: 300px;
+    grid-row: 3/3;
+    margin: 0;
+    width: 131px;
 }
 
 /*---4. BLOG---*/
@@ -420,23 +453,20 @@ input, textarea {
    
 /*---3.STORE---*/
     #store {
-        background-color: #A0A0A0;
-        height: 423px;
+        height: 460px;
         margin-bottom: 10px;
     }
     
     .shop {
-        height: 19px;
          margin-top: 24px;
          grid-row: 1/2;
-         padding-bottom: 22px;
-         padding-top: 6px;
-         margin-right: 7px;
+         font-size: 18px;
+         margin-bottom: 5px;
     }
 
     .shop-more {
         height: 19px;
-        margin-top: 24px;
+        margin-top: 40px;
         grid-row: 4/4;
         padding-bottom: 22px;
         padding-top: 6px;
@@ -444,7 +474,11 @@ input, textarea {
     }
 
     .shop-text {
-        display: none;
+        display: block;
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 8px;
+        text-align: center;
      }
      
 
@@ -453,6 +487,16 @@ input, textarea {
         margin-left: 20px;
         margin-right: 20px;
         grid-row: 3/4;
+        margin-bottom: 20px;
+        width: 129px;
+    }
+
+    .product_1 {
+        height: 250px;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-row: 3/4;
+        width: 129px;
     }
 
     .product2 {
@@ -460,6 +504,15 @@ input, textarea {
         grid-row: 3/4;
         margin-left: 20px;
         margin-right: 20px;
+        width: 129px;
+    }
+    
+    .product_2 {
+        height: 250px;
+        grid-row: 3/4;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 129px;
     }
     
 /*---5.BLOG---*/
@@ -753,23 +806,62 @@ input, textarea {
    
     .shop-text {
         display: block;
-        height: 28px;
         grid-row: 2/3;
-     }
+        text-align: center;
+        font-size: 20px;
+    }   
 
-     .product1 {
+    .shop {
+        margin-top: 30px;
+        /* grid-row: 1/2; */
+        font-size: 30px;
+        margin-bottom: 5px;
+        color: #fff;
+   }
+
+   .shop-more {
+       height: 42px;
+       margin-top: 122px;
+       grid-row: 4/4;
+       padding-top: 8px;
+       border-radius: 2px;
+       border: solid 2px #fff;
+    }
+
+    .product1  img {
         height: 390px;
         margin-left: 20px;
         margin-right: 20px;
         grid-row: 3/4;
+        width: 198px;
     }
 
-    .product2 {
+    .product_1  img {
+        height: 390px;
+        margin-left: 20px;
+        margin-right: 20px;
+        grid-row: 3/4;
+        width: 198px;
+        margin-bottom: 30px;
+    }
+
+
+    .product2 img {
         height: 390px;
         grid-row: 3/4;
         margin-left: 20px;
         margin-right: 20px;
+        width: 198px;
     }
+
+    .product_2 img {
+        height: 390px;
+        grid-row: 3/4;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 198px;
+    }
+
 /*---5.BLOG---*/
 #blog {
     height: 745px;
@@ -983,15 +1075,44 @@ input, textarea {
         background-color: #A0A0A0;
         height: 1063px;
     }
+
+    .shop {
+        margin-top: 30px;
+        font-size: 40px;
+        margin-bottom: 0;
+        color: #fff;
+        grid-row: 1/3;
+    }
     
-    .product1 {
+    .shop-text {
+        display: block;
+        grid-row: 2/3;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .product1 img {
+        height: 620px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+    }
+
+    .product_1 img {
         height: 625px;
         margin-left: 20px;
         margin-right: 20px;
         margin-bottom: 0px;
     }
 
-    .product2 {
+    .product2 img {
+        height: 625px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+    }
+
+    .product_2 img {
         height: 625px;
         margin-left: 20px;
         margin-right: 20px;
