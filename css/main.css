@@ -21,7 +21,7 @@ input, textarea {
 
 
  #search {
-    margin-top: 20px;
+    margin-top: 24px;
     border-radius: 10px;
     text-align: center;
  }
@@ -31,8 +31,13 @@ input, textarea {
     width: 90%;
  }
 
+ #Nav-Deskop {
+    margin-top: 3px;
+    margin-left: 11px;
+ }
 
- #main-nav button.expanded {
+
+ #Nav-Desktop button.expanded {
     transform: rotate(90deg);
  }
  
@@ -539,8 +544,10 @@ input, textarea {
     grid-row: 2/3;
     text-align: center;
     margin-top: -32px;
-   letter-spacing: 3px;   
+   letter-spacing: 3px;
 }
+
+.fab { color: #fff;}
 
 .fa-youtube, .fa-tiktok, .fa-linkedin { display: none;}
 
@@ -553,17 +560,18 @@ input, textarea {
 
     #main-logo {
         width: 80%;
-        margin-top: 15px;
+        margin-top: 18px;
+        margin-left: 22px;
     }
 
     #search {
-        margin-top: 45px;
+        margin-top: 41px;
         border-radius: 50px;
         text-align: center;
         width: 330px;
-        height: 35px;
+        height: 44px;
         margin-left: 22px;
-    }
+      }
 
     #Nav-Desktop button {
         width: 45px;
@@ -1024,10 +1032,13 @@ input, textarea {
     header { position: sticky;}
    
     #search {
-        margin-top: 35px;
+        margin-top: 38px;
         border-radius: 50px;
         text-align: center;
-        width: 167px;
+        width: 280px;
+        height: 37px;
+        font-size: 25px;
+        margin-left: -32px;
     }
 
     #Nav-Desktop button {
@@ -1038,8 +1049,8 @@ input, textarea {
         display: contents;
     }
 
+    #burger-con ul { margin-top: 44px;}
     #Nav-Desktop {
-        margin-top: 25px;
         grid-row: 1/3;
         padding-left: 0;
     }
@@ -1464,24 +1475,42 @@ input, textarea {
             padding-left: 0;
         }
 
-        #burger-con {
-            font-size: 22px;
+        #burger-con ul {
+            margin-top: 48px;
+            margin-left: 67px;
          }
 
-/*2--Hero Image--*/
-        #hero-image {
-            height: 974px;   
-        }
-        
-        .hero-text {
-            height: 297px;  
+         #Nav-Desktop ul li {
+            display: inline;
+            font-size: 1.9rem;
+            margin-right: 30px;
         }
 
-        .hero {
-            height: 974px;
+        #search {
+            margin-top: 55px;
+            border-radius: 50px;
+            text-align: center;
+            width: 440px;
+            height: 50px;
+            font-size: 27px;
+            margin-left: -64px;
+            letter-spacing: 2px;
         }
 
-/*---3. PROMO---*/
+    /*2--Hero Image--*/
+            #hero-image {
+                height: 974px;   
+            }
+            
+            .hero-text {
+                height: 297px;  
+            }
+
+            .hero {
+                height: 974px;
+            }
+
+    /*---3. PROMO---*/
 
         #promo-con {
             height: 1011px;
@@ -1710,7 +1739,6 @@ input, textarea {
 /*---5.HISTORY---*/
 #history {
     height: 604px;
-    margin-bottom: 8px;
 }
 
 .vid-1 {
@@ -1789,24 +1817,32 @@ input, textarea {
 } */
 
 #footer-logo {
-    height: 182px;
-    margin-left: 13px;
-    padding-right: 38px;
-    margin-top: 40px;
+    margin-top: 69px;
+    grid-row: 1/2;
 }
 
 #footer-nav {
-    height: 266px;
-    margin-left: 12px;
+    /* height: 266px; */
+    /* margin-left: 12px; */
     padding-right: 35px;
     margin-top: 29px;
+    grid-row: 1/2;
+}
+
+#footer-nav h3 {
+    font-size: 25px;
+    margin-top: 18px;
+}
+
+#footer-nav ul {
+    margin-top: 9px;
 }
 
 #contact {
-    height: 276px;
-    margin-left: 35px;
-    padding-left: 48px;
+    /* height: 276px; */
+    /* margin-left: 35px; */
     margin-top: 29px;
+    grid-row: 1/2;
 }
 
 #submit-info {
@@ -1824,4 +1860,67 @@ input, textarea {
     margin-top: 210px;
 }
 
+    #contact h3 {
+        font-size: 25px;
+        margin-top: 18px;
+    }
+
+    #footer-nav ul {
+        margin-left: 0;
+        padding-left: 0;
+        font-size: 22px;
+        color: #fff;
+        text-align: center;
+        line-height: 37px;
+    }
+
+    #contact ul li {
+        font-size: 20px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .social-icons {
+        grid-row: 2/3;
+        text-align: center;
+        margin-top: -37px;
+        letter-spacing: 3px;
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+
+    #username, #mail {
+        width: 314px;
+        height: 45px;
+    }
+
+    #mail {
+        margin-left: 331px;
+        margin-top: -45px;
+    }
+
+    #fav {
+        width: 644px;
+        height: 85px;
+    }
+
+    #submit-info {
+        font-size: 19px;
+    }
+
+    #subscribe {
+        margin-top: 47px;
+    }
+
+    #sub {
+        border-radius:  5px;
+        background-color: #ffffff;
+        margin-bottom: 15px;
+        color: #000;
+        font-size: 20px;
+        width: 160px;
+        height: 49px;
+    }
+
 }
+
