@@ -41,7 +41,54 @@
                         </nav>
             
                     </header>
-                    <main>
+
+                    <main id="main" class="grid-con">
+
+                        <section id="contact-form">
+                            <h2>Contact Us</h2>
+                               <form class="grid-con" method="post" action="email.php" enctype="text/plain">
+                                   <input id="username-form" type="text" placeholder="First Name">
+                                   <input id="lastname-form" type="text" placeholder="Last Name">
+                                   <input type="email" required placeholder="Email">
+                                   <input id="phone" type="text" placeholder="Phone">
+                                   <input id="location" type="text" placeholder="Location"> 
+                                   <textarea name="msg" placeholder="Please tell us the details so we can better answer your question..."></textarea>
+                                   <h3>How would you like us to contact you?</h3>
+                                   <ul>
+                                    <li><input type="checkbox"><span>Email</span></li>  
+                                    <li><input type="checkbox"><span>Phone Call</span></li>  
+                                   </ul>        
+                                   <input name="submit" type="submit" value="SUBMIT">
+                               </form>
+                        </section>
+                        <div class="m-background">
+                            <img
+                            sizes="100vw,"
+                            srcset="
+                            images/background_l5le1y_c_scale,w_768.png 768w,
+                            images/background_l5le1y_c_scale,w_994.png 994w,
+                            images/background_l5le1y_c_scale,w_1204.png 1204w,
+                            images/background_l5le1y_c_scale,w_1360.png 1360w,
+                            images/background_l5le1y_c_scale,w_1503.png 1503w,
+                            images/background_l5le1y_c_scale,w_1658.png 1658w,
+                            images/background_l5le1y_c_scale,w_1811.png 1811w,
+                            images/background_l5le1y_c_scale,w_1920.png 1920w"
+                            src="background_l5le1y_c_scale,w_1920.png"
+                            alt="">
+                        </div>
+                        
+                            <section class="grid-con" id="issues">
+                                <h2 class="hidden">Contact Us Issue Form</h2>
+                                
+                                <ul class="grid-con">
+                                    <li><a href="#"><input class="hidden" type="checkbox"><span> Login Issues </span></a> </li>
+                                    <li><a href="#"><input class="hidden"type="checkbox"><span> Order Status </span></a> </li>
+                                    <li><a href="#"><input class="hidden" type="checkbox"><span> Shipping and Returns </span></a> </li>
+                                    <li><a href="#"><input class="hidden" type="checkbox"><span> Event Inquiry </span></a> </li>
+                                </ul>
+                            </section>
+                        
+                        
 
 
                     </main>
