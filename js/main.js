@@ -22,3 +22,18 @@
 //(() => {  })();   
 
 // Info about IIFE https://flaviocopes.com/javascript-iife/
+
+
+let vid = document.querySelector("iframe")
+	
+
+
+function playvid() {
+	vid.style.display = 'block';
+}
+
+function close() {
+	document.getElementById('.vid-1').textContent = "X"
+}
+
+vid.addEventListener("click",playvid);
