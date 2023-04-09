@@ -42,16 +42,47 @@ input, textarea {
  }
  
  #burger-con {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
     display: none;
- }
+    position: absolute;
+    background-color: #fff;
+    height: 380px;
+}
  
- #burger-con.slide-toggle {
+#burger-con.slide-toggle {
     display: block;
- }
+    left: 0;
+    right: 0;
+}
+
+#burger-con ul li {
+    border-bottom: 2px solid #efefef;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+#burger-con ul {
+    padding-left: 0;
+}
+
+
+#burger-con ul li a {
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #505050;
+}
+
+#burger-con ul li a:hover {
+    color: #BC8D0A;
+}
+
+
+
+
  
- #main-nav ul {
+ /* #main-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -78,7 +109,7 @@ input, textarea {
  
  #main-nav ul li:last-child {
     margin-bottom: 10px;
- }
+ } */
 
 /*1--Hero Image--*/
 .hero {
@@ -392,17 +423,17 @@ input, textarea {
 
 /*---5.HISTORY---*/
 #history {
-    height: 535px;
+    /* height: 535px; */
     background-color: #BC8D0A;
+    grid-auto-rows: min-content;
 }
 
 .vid-1 {
     border-radius: 100%;
-    height: 111px;
-    width: 111px;
+    height: 50px;
     text-align: center;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 39px;
+    margin-right: -39px;
     background-color: #ffffff;
     margin-top: 20px;
     display: block;
@@ -420,10 +451,10 @@ input, textarea {
 
 .vid-2 {
     border-radius: 100%;
-    height: 111px;
+    height: 50px;
     text-align: center;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 39px;
+    margin-right: -39px;
     background-color: #ffffff;
     margin-top: 20px;
 }
@@ -431,27 +462,27 @@ input, textarea {
 
 .vid-3 {
     border-radius: 100%;
-    height: 111px;
+    height: 50px;
     text-align: center;
-    margin-left: 9px;
-    margin-right: 9px;
+    margin-left: 39px;
+    margin-right: -39px;
     background-color: #ffffff;
     margin-top: 20px;
 }
 
-/* .vid-1 h3 {
-    margin-top: 9px;
+.vid-1 h3 {
+    margin-top: 41px;
     color: #BC8D0A;
     font-size: 15px;
 } */
 
 .vid-2 h3 {
-    margin-top: 41px;
+    margin-top: 15px;
     color: #BC8D0A;
 }
 
 .vid-3 h3 {
-    margin-top: 41px;
+    margin-top: 15px;
     color: #BC8D0A;
 }
 
@@ -460,10 +491,12 @@ input, textarea {
     font-size: 18px;
     text-align: center;
     color: #fff;
+    margin-top: 20px;
 }
 
 #zima-history a {
     color: #fff;
+    font-weight: 600;
 }
 
 #history-info {
@@ -966,6 +999,18 @@ orang { display: none;}
         margin-bottom: 20px;
         transition: all .5s ease;
         border: 0;
+    }
+
+    #burger-con {
+        margin-bottom: 20px;
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        height: 390px;
+    }
+
+    #burger-con.slide-toggle {
+        left: 457px;
     }
 
     /*--1. Hero Image--*/
@@ -1624,7 +1669,20 @@ orang { display: none;}
 
     #burger-con {
         display: contents;
+        position: relative;
+        height: 0;
     }
+
+    #burger-con.slide-toggle {
+        left: 0;
+        right: 0;
+    }
+
+    #burger-con ul li {
+        border-bottom: none;
+    }
+
+    #burger-con ul li a { display: inline;}
 
     #burger-con ul { margin-top: 44px;}
     #Nav-Desktop {
