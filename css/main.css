@@ -399,11 +399,23 @@ input, textarea {
 .vid-1 {
     border-radius: 100%;
     height: 111px;
+    width: 111px;
     text-align: center;
     margin-left: 9px;
     margin-right: 9px;
     background-color: #ffffff;
     margin-top: 20px;
+    display: block;
+    margin-top: 9px;
+    color: #BC8D0A;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#video {
+    display: none;
+    margin-left: -15px;
+    width: 320px;
 }
 
 .vid-2 {
@@ -427,10 +439,11 @@ input, textarea {
     margin-top: 20px;
 }
 
-.vid-1 h3 {
-    margin-top: 41px;
+/* .vid-1 h3 {
+    margin-top: 9px;
     color: #BC8D0A;
-}
+    font-size: 15px;
+} */
 
 .vid-2 h3 {
     margin-top: 41px;
@@ -897,9 +910,25 @@ orang { display: none;}
     letter-spacing: 1px;
     margin-top: 5px;
     margin-left: 175px;
-
 }
 
+/*---404 PAGE---*/
+#main-404 {
+    background-color: #FFFDF9;
+}
+
+.page-404 {
+    grid-column: 1/5;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.page-404 h2 {
+    font-size: 15px;
+}
+/* .page-404 {
+    background-image: url(.../images/404);
+} */
 
 
 
@@ -2631,11 +2660,13 @@ orang { display: none;}
         display: inline-flex;   
     } */
 
- /*---1920 - Shop Page*/
+ /*---1920 - Shop Page---*/
 
     #lemon, #rose, #grape, #orange, #orang, #original, #blueberry {
        height: 1109px;
     }
+
+    /*---404 PAGE---*/
 
 }
 
