@@ -489,6 +489,7 @@ input, textarea {
     height: 200px;
     margin-top: 10px;
     /* position: absolute; */
+    border: none;
 }
 
 
@@ -998,7 +999,7 @@ video {
     height: 407px;
 }
 
-#mint {
+.mint {
     object-fit: contain;
     grid-column: 1/2;
     height: 167px;
@@ -1315,6 +1316,19 @@ hr {
     border: solid 2px #fff;
     color: #fff;
 }
+
+#issues ul li a:hover {
+    font-size: 31px;
+    color: #BC8D0A;
+}
+
+#contact-form input[type="submit"]:hover {
+	background-color:#1f221a;
+	border: solid 4px #fff;
+	cursor: pointer;
+    color: #fff;
+}
+
 
 
 /* .buy-me {
@@ -2048,7 +2062,7 @@ hr {
     margin-right: -40px;
   }
 
-#mint, #blood {
+.mint, #blood {
     height: 185px;
 }
 
@@ -2690,7 +2704,7 @@ hr {
        height: 661px;
     }
 
-    #mint, #blood {
+    .mint, #blood {
         height: 314px;
     }
 
@@ -2707,6 +2721,8 @@ hr {
         grid-column: 10/12;
         margin-left: -57px;
     }
+
+    
 
     .lightbox {
         height: 155vh;
@@ -3410,7 +3426,7 @@ hr {
        height: 1109px;
     }
 
-    #mint, #blood {
+    .mint, #blood {
         height: 528px;
     }
 
@@ -3457,11 +3473,28 @@ hr {
     }
 
     .lightbox {
-        height: 225vh;
+        height: 303vh;
         position: absolute;
-        top: 1%;   
-        margin-top: -20px; 
+        top: 1%;
+        margin-top: -20px;
     }
+
+    .lightbox .zimaImg {
+        max-width: 102%;
+      }
+    
+      .bshare {
+        color: #fff;
+        background-color: #1F221A;
+        font-weight: 500;
+        border-radius: 30px;
+        height: 64px;
+        padding: 22px;
+        width: 400px;
+        text-align: center;
+      }
+
+         
 
     .select select {
         height: 46px;

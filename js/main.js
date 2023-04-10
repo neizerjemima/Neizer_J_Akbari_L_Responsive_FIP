@@ -146,13 +146,13 @@ let fruitName = {
 		name: "ZIMA ROSE APPLE",
 		description: "Zima Rose Apple is the only alcohol beverage with zero calories   and maximum Zima taste! 500Ml - Just the right size to grab and go!",
 		ingredient: " Every effort is taken to ensure that the ingredients and nutritional information listed on our website is accurate, however, this information may change from time to time. Please always refer to the product package for the most current and accurate ingredient and nutrition information. If you require further assistance, please contact our Consumer Relations team. ZERO CALORIES.",
-		pack: "images/grapefruit-pack.png",
+		pack: "images/rose-pack.png",
 	},
 
 	grapefruit : {
 		main: "images/popup-grapefruit.png",
 		name: "ZIMA GRAPEFRUIT",
-		description: "Zima Original is the only alcohol beverage with zero calories   and maximum Zima taste! 500Ml - Just the right size to grab and go!",
+		description: "Zima Grapefruit is the only alcohol beverage with zero calories   and maximum Zima taste! 500Ml - Just the right size to grab and go!",
 		ingredient: " Every effort is taken to ensure that the ingredients and nutritional information listed on our website is accurate, however, this information may change from time to time. Please always refer to the product package for the most current and accurate ingredient and nutrition information. If you require further assistance, please contact our Consumer Relations team. ZERO CALORIES.",
 		pack: "images/grapefruit-pack.png",
 	},
@@ -160,24 +160,24 @@ let fruitName = {
 	mint : {
 		main: "images/popup-mint-lemon.png",
 		name: "ZIMA MINT LEMON",
-		description: "Zima Original is the only alcohol beverage with zero calories   and maximum Zima taste! 500Ml - Just the right size to grab and go!",
+		description: "Zima lemon with a hint of mint is the only alcohol beverage with zero calories   and maximum Zima taste! 500Ml - Just the right size to grab and go!",
 		ingredient: " Every effort is taken to ensure that the ingredients and nutritional information listed on our website is accurate, however, this information may change from time to time. Please always refer to the product package for the most current and accurate ingredient and nutrition information. If you require further assistance, please contact our Consumer Relations team. ZERO CALORIES.",
 		pack: "images/mint-pack.png",
 	},
 
 	orange : {
 		main: "images/popup-orange.png",
-		name: "Zima Original",
-		description: "Zima Original is the only alcohol beverage with zero calories   and maximum Zima taste! 500Ml - Just the right size to grab and go!",
+		name: "ZIMA ORANGE",
+		description: "Zima Orange is the only alcohol beverage with zero calories   and maximum Zima taste! 500Ml - Just the right size to grab and go!",
 		ingredient: " Every effort is taken to ensure that the ingredients and nutritional information listed on our website is accurate, however, this information may change from time to time. Please always refer to the product package for the most current and accurate ingredient and nutrition information. If you require further assistance, please contact our Consumer Relations team. ZERO CALORIES.",
-		pack: "images/grapefruit-pack.png",
+		pack: "images/orange-pack.png",
 	},
 
 	applelemon : {
 		main: "images/popup-mint-lemon.png",
 		name: "Zima APPLE LEMON",
 		description: "COMING SOON",
-		pack: "images/grapefruit-pack.png",
+		pack: "images/orange-pack.png",
 	},
 
 	coconut : {
@@ -191,7 +191,7 @@ let fruitName = {
 		main: "images/popup-mint-lemon.png",
 		name: "ZIMA CINNAMON Lime",
 		description: "COMING SOON",
-		pack: "images/grapefruit-pack.png",
+		pack: "images/orange-pack.png",
 	},
 
 	vodka : {
