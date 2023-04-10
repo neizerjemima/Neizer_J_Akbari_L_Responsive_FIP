@@ -24,16 +24,78 @@
 // Info about IIFE https://flaviocopes.com/javascript-iife/
 
 
-let vid = document.querySelector("iframe")
+
+// History Section  
+  // Function to play video on button click
+//   function playVideo(videoId) {
+// 	let video = document.getElementById(videoId);
+// 	if (video.style.display == 'none') {
+// 	video.style.display = 'block';
+// 	video.play();
+//   } else {
+// 	video.style.display = 'none';
+//     video.pause();
+//   }
+// }
+
+let vid = document.getElementById("video-1"),
+	vide = document.getElementById("video-2"),
+	video = document.getElementById("video-3");
+
+    
+function playVid() { 
+ 
+  if (vid.style.display == 'none') {
+    vid.style.display = 'block';
+    vid.play();
+  } else {
+  
+    vid.style.display = 'none';
+    vid.pause();
+ }
+
+} 
+
+function playVide() { 
+ 
+	if (vide.style.display == 'none') {
+	  vide.style.display = 'block';
+	  vide.play();
+	} else {
 	
-
-
-function playvid() {
-	vid.style.display = 'block';
+	  vide.style.display = 'none';
+	  vide.pause();
+   }
+  
 }
 
-function close() {
-	document.getElementById('.vid-1').textContent = "X"
+
+function playVideo() { 
+ 
+	if (video.style.display == 'none') {
+	  video.style.display = 'block';
+	  video.play();
+	} else {
+	
+	  video.style.display = 'none';
+	  video.pause();
+   }
+  
 }
 
-vid.addEventListener("click",playvid);
+// function playVideo() { 
+ 
+// 	if (vid.style.display == 'none') {
+// 	  vid.style.display = 'block';
+// 	  vid.play();
+// 	} else {
+	
+// 	  vid.style.display = 'none';
+// 	  vid.pause();
+//    }
+  
+// }
+
+// vid.addEventListener('click', playVid)
+// vide.addEventListener('click', playVide)
+// video.addEventListener('click', playVideo)

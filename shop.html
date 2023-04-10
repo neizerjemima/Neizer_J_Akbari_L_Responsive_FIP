@@ -50,9 +50,29 @@
                                 </p>
                                 <a href="#"><p>Click here to find our <span>Recipes</span></p></a>
                         </section>
+
+                        <section class="grid-con" id="product-section">
+                            <h2 class="hidden">Product heading</h2>
+                            <h3 class="select col-start-1 col-end-3 m-col-start-2 m-col-end-5">
+                                Showing 1 of 4
+                            </h3>
+                
+                            <form class="select col-start-4 col-end-5 m-col-start-7 m-col-end-9" action="email.php" method="POST" enctype="text/plain">
+                                <select id="order" name="orders">
+                                    <option value="null">Default Sorting</option>
+                                    <!-- <option value="yes">Featured</option> -->
+                                    <option value="yes">BestSellers</option>
+                                    <option value="no">Coming Soon</option>
+                                    <option value="no">Price: Low to High</option>
+                                    <option value="no">Price: High to Low</option>
+                                </select>
+                            </form>
+                        </section>    
+                
                         
-                        <section id="shop-page-product1">
-                            <button class="cart"><input type="checkbox"> <span>Add to Cart</span></button>
+                        <section id="shop-page-product1" class="products">
+                            
+                            <!-- <button class="cart"><input type="checkbox"> <span>Add to Cart</span></button> -->
                             <img
                             sizes=" 100vw"
                             srcset="
@@ -67,11 +87,17 @@
                             images/product-original_fyj4ld_c_scale,w_2008.png 2008w,
                             images/product-original_fyj4ld_c_scale,w_2127.png 2127w"
                             src="images/product-original_fyj4ld_c_scale,w_2127.png"
-                            alt="Zima Oiginal" id="original">   
+                            alt="Zima Oiginal" id="original"> 
+                            <div class="product-info">
+                                <h3> Zima Original</h3>
+                                <div class="addtoCart">
+                                    <a href="#"><h4>Add to cart</h4></a>
+                                    </a>
+                                </div>
+                            </div>  
                         </section>
 
-                        <section id="shop-page-product2">
-                            <button class="cart"><input type="checkbox"> <span>Add to Cart</span></button> 
+                        <section id="shop-page-product2" class="products2">
                             <img
                             sizes="100vw"
                             srcset="
@@ -87,12 +113,18 @@
                             images/product-lemon_vzm7rg_c_scale,w_2127.png 2127w"
                             src="images/product-lemon_vzm7rg_c_scale,w_2127.png"
                             alt="Zima Lemon" id="lemon">
+
+                            <div class="product-info2">
+                                <h3> Zima Lemon</h3>
+                                <div class="addtoCart">
+                                    <a href="#"><h4>Add to cart</h4></a>
+                                    </a>
+                                </div>
+                            </div>
   
                         </section>
 
-                        <section id="shop-page-product3">
-                            <button class="cart"><input type="checkbox"> <span>Add to Cart</span></button> 
-                            
+                        <section id="shop-page-product3" class="products3">
                             <img
                             sizes="100vw"
                             srcset="
@@ -108,11 +140,17 @@
                             images/product-saffron-blueberry_bcrdgt_c_scale,w_2127.png 2127w"
                             src="images/product-saffron-blueberry_bcrdgt_c_scale,w_2127.png"
                             alt="Zima saffron blueberry" id="blueberry">  
+                            <div class="product-info3">
+                                <h3> Zima Saffron Blueberry</h3>
+                                <div class="addtoCart">
+                                    <a href="#"><h4>Add to cart</h4></a>
+                                    </a>
+                                </div>
+                            </div>
                         </section>
 
-                        <section id="shop-page-product4">
-                            <button class="cart"><input type="checkbox"> <span>Add to Cart</span></button> 
-                                                       
+                        <section id="shop-page-product4" class="products4">
+                                                
                             <img
                             sizes="100vw"
                             srcset="
@@ -128,12 +166,17 @@
                             images/product-rose-apple_enjsav_c_scale,w_2127.png 2127w"
                             src="images/product-rose-apple_enjsav_c_scale,w_2127.png"
                             alt="Zima Rose Apple" id="rose">
-
+                            <div class="product-info4">
+                                <h3> Zima Rose Apple</h3>
+                                <div class="addtoCart">
+                                    <a href="#"><h4>Add to cart</h4></a>
+                                    </a>
+                                </div>
+                            </div>
                         </section>
 
-                        <section id="shop-page-product5">
-                            <button class="cart"><input type="checkbox"> <span>Add to Cart</span></button> 
-                            
+                        <section id="shop-page-product5" class="products5">
+                                                        
                             <img
                             sizes="100vw"
                             srcset="
@@ -149,31 +192,41 @@
                             images/product-grapefruit_a84ovh_c_scale,w_2127.png 2127w"
                             src="images/product-grapefruit_a84ovh_c_scale,w_2127.png"
                             alt="Zima Grape Fruit" id="grape">
+                            <div class="product-info5">
+                                <h3> Zima Grapefruit</h3>
+                                <div class="addtoCart">
+                                    <a href="#"><h4>Add to cart</h4></a>
+                                    </a>
+                                </div>
+                            </div>
                         </section>
 
-                        <section id="shop-page-product10">
-                            <button class="cart-tab"><input type="checkbox"> <span>Add to Cart</span></button>      
+                        <section id="shop-page-product10"class="products10">    
                             <img
                             sizes="100vw"
                             srcset="
-                            images/product-orange_hq4rqw_c_scale,w_320.png 320w,
-                            images/product-orange_hq4rqw_c_scale,w_839.png 839w,
-                            images/product-orange_hq4rqw_c_scale,w_1111.png 1111w,
-                            images/product-orange_hq4rqw_c_scale,w_1309.png 1309w,
-                            images/product-orange_hq4rqw_c_scale,w_1515.png 1515w,
-                            images/product-orange_hq4rqw_c_scale,w_1676.png 1676w,
-                            images/product-orange_hq4rqw_c_scale,w_1866.png 1866w,
-                            images/product-orange_hq4rqw_c_scale,w_1982.png 1982w,
-                            images/product-orange_hq4rqw_c_scale,w_2110.png 2110w,
-                            images/product-orange_hq4rqw_c_scale,w_2127.png 2127w"
-                            src="images/product-orange_hq4rqw_c_scale,w_2127.png"
+                            images/product-mint-lemon_l3heni_c_scale,w_320.png 320w,
+                            images/product-mint-lemon_l3heni_c_scale,w_804.png 804w,
+                            images/product-mint-lemon_l3heni_c_scale,w_1100.png 1100w,
+                            images/product-mint-lemon_l3heni_c_scale,w_1329.png 1329w,
+                            images/product-mint-lemon_l3heni_c_scale,w_1510.png 1510w,
+                            images/product-mint-lemon_l3heni_c_scale,w_1672.png 1672w,
+                            images/product-mint-lemon_l3heni_c_scale,w_1823.png 1823w,
+                            images/product-mint-lemon_l3heni_c_scale,w_1977.png 1977w,
+                            images/product-mint-lemon_l3heni_c_scale,w_2104.png 2104w,
+                            images/product-mint-lemon_l3heni_c_scale,w_2127.png 2127w"
+                            src="images/product-mint-lemon_l3heni_c_scale,w_2127.png"
                             alt="Zima Orange" id="orange">
-
+                            <div class="product-info10">
+                                <h3> Zima Mint Lemon</h3>
+                                <div class="addtoCart">
+                                    <a href="#"><h4>Add to cart</h4></a>
+                                    </a>
+                                </div>
+                            </div>
                         </section>
 
-                        <section id="shop-page-product11">
-                            <button class="cart-tab"><input type="checkbox"> <span>Add to Cart</span></button>   
-                            
+                        <section id="shop-page-product11" class="products11"> 
                             <img
                             sizes="100vw"
                             srcset="
@@ -189,12 +242,17 @@
                             images/product-orange_hq4rqw_c_scale,w_2127.png 2127w"
                             src="images/product-orange_hq4rqw_c_scale,w_2127.png"
                             alt="Zima Orange" id="orang">
-
+                            <div class="product-info11">
+                                <h3> Zima Orange</h3>
+                                <div class="addtoCart">
+                                    <a href="#"><h4>Add to cart</h4></a>
+                                    </a>
+                                </div>
+                            </div>
                         </section>
 
-                        <section id="shop-page-product6">
-                            <button class="soon-info"></button> 
-                            
+                        <section id="shop-page-product6" class="products6">
+                                                        
                             <img
                             sizes="100vw"
                             srcset="
@@ -210,11 +268,18 @@
                             images/product-mint-lemon_l3heni_c_scale,w_2127.png 2127w"
                             src="images/product-mint-lemon_l3heni_c_scale,w_2127.png"
                             alt="Zima Mint-lemon" id="mint">
+                            <div class="product-info6">
+                                <h3> Apple Lemon</h3>
+                                <div class="coming">
+                                    <a href="#"><h4>Coming Soon</h4></a>
+                                    </a>
+                                </div>
+                            </div>
                         </section>
 
                             <!-- <h3>Coming Soon</h3>  -->
-                        <section id="shop-page-product7">
-                            <button class="soon-info"></button>                            
+                        <section id="shop-page-product7"class="products7">
+                                                      
                             <img
                             sizes="100vw"
                             srcset="
@@ -230,11 +295,17 @@
                             images/product-mint-lemon_l3heni_c_scale,w_2127.png 2127w"
                             src="images/product-mint-lemon_l3heni_c_scale,w_2127.png"
                             alt="Zima Mint lemon" id="mint">
+                            <div class="product-info7">
+                                <h3> Coconut Orange</h3>
+                                <div class="coming">
+                                    <a href="#"><h4>Coming Soon</h4></a>
+                                    </a>
+                                </div>
+                            </div>
                         </section>
 
-                        <section id="shop-page-product8">
-                            <button class="soon-info"></button> 
-                               
+                        <section id="shop-page-product8" class="products8">
+                                                          
                             <img
                             sizes="100vw"
                             srcset="
@@ -250,12 +321,18 @@
                             images/product-bloodyOrange_sxwqn3_c_scale,w_2127.png 2127w"
                             src="images/product-bloodyOrange_sxwqn3_c_scale,w_2127.png"
                             alt="Zima blood orange" id="blood">
+                            <div class="product-info8">
+                                <h3> Cinnamon Lime</h3>
+                                <div class="coming">
+                                    <a href="#"><h4>Coming Soon</h4></a>
+                                    </a>
+                                </div>
+                            </div>
 
                         </section>
 
-                        <section id="shop-page-product9">
-                            <button class="soon-info"></button> 
-                            
+                        <section id="shop-page-product9" class="products9">
+                                                        
                             <img
                             sizes="100vw"
                             srcset="
@@ -271,6 +348,13 @@
                             images/product-mint-lemon_l3heni_c_scale,w_2127.png 2127w"
                             src="images/product-mint-lemon_l3heni_c_scale,w_2127.png"
                             alt="Zima Mint-lemon" id="mint">
+                            <div class="product-info9">
+                                <h3> Pineapple Vodka</h3>
+                                <div class="coming">
+                                    <a href="#"><h4>Coming Soon</h4></a>
+                                    </a>
+                                </div>
+                            </div>
                         </section>
 
                     
