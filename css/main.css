@@ -2387,6 +2387,10 @@ hr {
         width: 250px;
     }
 
+    .products6, .products7, .products8, .products9 {
+        opacity: .2;
+    }
+
     /*---5.BLOG---*/
     #blog {
         height: 745px;
