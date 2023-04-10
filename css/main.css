@@ -1239,20 +1239,48 @@ hr {
 /*---404 PAGE---*/
 #main-404 {
     background-color: #FFFDF9;
+    height: 100vh;
 }
 
 .page-404 {
     grid-column: 1/5;
     margin-top: 40px;
     text-align: center;
+    grid-row: 1/2;
+    /* position: absolute; */   
+}
+#main-404 img {
+    max-width: 870%;
+    grid-row: 2/2;
+    margin-left: -108px;
 }
 
 .page-404 h2 {
     font-size: 15px;
+    line-height: 40px;
 }
-/* .page-404 {
-    background-image: url(.../images/404);
-} */
+.page-404 {
+    background-image: url(".../images/404pagedesktop");
+}
+
+.page-404 button {
+    border: solid 2px #1F221A;
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.page-404 p {
+    font-size: 15px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.page-404 button:hover {
+    background-color: #1F221A;
+    color: #fff;
+}
 
 
 /*----HOVERS---*/
@@ -2062,6 +2090,33 @@ hr {
 
 }
 
+/*---404 PAGE---*/
+
+#main-404 img {
+    max-width: 1572%;
+    grid-row: 1/2;
+    margin-left: 74px;
+}
+
+.page-404 {
+    position: absolute; 
+    margin-left: 62px;
+    margin-top: 30px;
+    text-align: left;
+    margin-top: 149px;
+}
+
+.page-404 p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+#boost {
+    margin-bottom: 20px;
+}
 
 }
 
@@ -2721,7 +2776,36 @@ hr {
         padding-top: 3px;
         font-size: 15px;
     }
+
+    /*---404 PAGE---*/
+    .page-404 h2 {
+        font-size: 46px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .page-404 p {
+        font-size: 24px;
+        text-align: left;
+        line-height: 34px;
+        margin-bottom: 10px;
+        font-weight: 500;
+    }
     
+    .page-404 {
+        position: absolute;
+        margin-left: 62px;
+        margin-top: 212px;
+        text-align: left;
+    }
+    .page-404 button {
+        border: solid 2px #1F221A;
+        background-color: #fff;
+        padding: 10px;
+        margin-top: 25px;
+        text-align: center;
+        font-size: 30px;
+      }
 }
 
     
@@ -3386,6 +3470,9 @@ hr {
       }
 
     /*---404 PAGE---*/
+    .page-404 {
+        margin-top: 285px;
+    }
 
 }
 
