@@ -41,6 +41,7 @@
 let vid = document.getElementById("video-1"),
 	vide = document.getElementById("video-2"),
 	video = document.getElementById("video-3");
+	icon = document.querySelector(".fa.fa-play");
 
     
 function playVid() { 
@@ -48,10 +49,12 @@ function playVid() {
   if (vid.style.display == 'none') {
     vid.style.display = 'block';
     vid.play();
+	icon.className = "fa fa-close";
   } else {
   
     vid.style.display = 'none';
     vid.pause();
+	icon.className = "fa fa-play";
  }
 
 } 

@@ -427,9 +427,22 @@ input, textarea {
     background-color: #ffffff;
     margin-top: 20px;
     color: #BC8D0A;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 600;
     /* opacity: 0; */
+    cursor: pointer;
+  }
+
+  .button i {
+    color: #BC8D0A;
+    font-size: 15px;
+}
+
+
+
+
+.button:hover .old {
+    opacity: 1;
   }
 
   .closeButton {
@@ -1675,11 +1688,15 @@ hr {
     margin-left: 39px;
     margin-right: -39px;
     margin-top: 35px;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 600;
     /* grid-row: 1/2; */
   }
 
+  .button i {
+    color: #BC8D0A;
+    font-size: 25px;
+}
   .video {
     /* width: 768px;
     height: 310px; */
@@ -2507,6 +2524,11 @@ hr {
     grid-row: 1/2;
   }
 
+  .button i {
+    color: #BC8D0A;
+    font-size: 50px;
+}
+
   
 
     #video-2, #video-3, #video-1 {
@@ -3154,6 +3176,10 @@ hr {
 
 }
 
+.button i {
+    color: #BC8D0A;
+    font-size: 52px;
+}
 
 
 .button, #vid-1, #vid-2, #vid-3 {
