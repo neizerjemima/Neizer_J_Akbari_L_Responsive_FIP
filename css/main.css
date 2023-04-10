@@ -5,7 +5,11 @@ input, textarea {
     margin: 0;
     padding: 0;
  }
- 
+
+ .header {
+    position: sticky;
+    background-color: #fff;
+ }
  
  /* 2. ---Main Nav--- */
  
@@ -1368,7 +1372,7 @@ hr {
 
 @media screen and (min-width: 768px) {
 
-    header {
+    .header {
         position: sticky;
     }
 
@@ -2167,7 +2171,7 @@ hr {
     }
 /*--1. Header--*/
 
-    header { position: sticky;}
+    .header { position: sticky;}
    
     #search {
         margin-top: 38px;
@@ -2856,10 +2860,9 @@ hr {
             width: 100%;
         }
 /*--1. Header--*/
-        /* #Nav-Desktop ul li {
-            m
-        } */
 
+        .header { position: sticky;}
+        
         #Nav-Desktop {
             margin-top: 11px;
             padding-left: 0;
